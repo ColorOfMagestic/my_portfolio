@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Pavel Kuznetsov</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
 
@@ -68,10 +72,128 @@
       />
     </header>
 
-    <main class="page"></main>
+    <main class="page">
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="title section-title">Портфолио</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="swiper-slide-img" src="img/1.png" alt="" />
+                <a class="swiper-slide_link" href="">Посмотреть</a>
+                <div class="swiper-slide_descriptoin">
+                  <h4 class="title descriptoin-title">Футбольная академия</h4>
+                  <p class="description-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Architecto similique blanditiis adipisci rerum, omnis
+                    inventore beatae tenetur maxime ratione totam!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-slide-img" src="img/2.png" alt="" />
+                <a class="swiper-slide_link" href="">Посмотреть</a>
+
+                <div class="swiper-slide_descriptoin">
+                  <h4 class="title descriptoin-title">Футбольная академия</h4>
+                  <p class="description-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Architecto similique blanditiis adipisci rerum, omnis
+                    inventore beatae tenetur maxime ratione totam!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-slide-img" src="img/3.png" alt="" />
+                <a class="swiper-slide_link" href="">Посмотреть</a>
+                <div class="swiper-slide_descriptoin">
+                  <h4 class="title descriptoin-title">Футбольная академия</h4>
+                  <p class="description-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Architecto similique blanditiis adipisci rerum, omnis
+                    inventore beatae tenetur maxime ratione totam!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-slide-img" src="img/4.png" alt="" />
+                <a class="swiper-slide_link" href="">Посмотреть</a>
+                <div class="swiper-slide_descriptoin">
+                  <h4 class="title descriptoin-title">Футбольная академия</h4>
+                  <p class="description-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Architecto similique blanditiis adipisci rerum, omnis
+                    inventore beatae tenetur maxime ratione totam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <img
+          class="decoration portfolio_decoration-bot_left"
+          src="img/port_bottom_left.png"
+          alt=""
+        />
+        <img
+          class="decoration portfolio_decoration-bot_right"
+          src="img/port_bottom_right.png"
+          alt=""
+        />
+      </section>
+      <section class="skills">
+        <div class="container">
+          <h2 class="title section-title">Skills</h2>
+          <ul class="skills_list">
+            <li class="skills_list">Lorem ipsum dolor sit amet.</li>
+            <li class="skills_list">Lorem ipsum dolor sit amet.</li>
+            <li class="skills_list">Lorem ipsum dolor sit amet.</li>
+            <li class="skills_list">Lorem ipsum dolor sit amet.</li>
+            <li class="skills_list">Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <div class="skills_wrapper">
+            <img class="skills-img" src="img/skills_el_bot_left.png" alt="" />
+            <div class="skills-btn_wrapper">
+              <span class="skills-btn_span"></span>
+              <span class="skills-btn_span"></span>
+              <button class="btn skills-btn">ЗАДАТЬ ВОПРОС</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="conditions">
+        <div class="container">
+          <h2 class="title section-title">Skills</h2>
+          <ul class="conditions_list">
+            <li class="conditions_list">Lorem ipsum dolor sit amet.</li>
+            <li class="conditions_list">Lorem ipsum dolor sit amet.</li>
+            <li class="conditions_list">Lorem ipsum dolor sit amet.</li>
+            <li class="conditions_list">Lorem ipsum dolor sit amet.</li>
+            <li class="conditions_list">Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <div class="conditions-btn_wrapper">
+            <button class="btn conditions-btn">ЗАДАТЬ ВОПРОС</button>
+            <span class="conditions-btn_span"></span>
+          </div>
+        </div>
+        <img
+          class="decoration conditions_decoration-bot_left"
+          src="img/conditions_el_bot_left.png"
+          alt=""
+        />
+        <img
+          class="decoration conditions_decoration-bot_right"
+          src="img/conditions_bottom_right.png"
+          alt=""
+        />
+      </section>
+    </main>
 
     <footer class="page-footer" id="page-footer"></footer>
-
-    <script src="js/main.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="module" src="js/main.min.js"></script>
   </body>
 </html>
