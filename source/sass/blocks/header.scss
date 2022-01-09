@@ -1,16 +1,36 @@
 .header {
   position: relative;
   height: 100vh;
+
+  .header_decoration-top {
+    top: 0;
+    left: 0;
+  }
+
+  .header_decoration-bottom-left {
+    bottom: -400px;
+    left: -100px;
+  }
+
+  .header_decoration-bottom-right {
+    bottom: -410px;
+    right: 0;
+  }
+
   .container {
+    padding-top: 5.3125rem;
+
     .header_nav {
       position: relative;
       padding-left: 7.875rem;
-      margin: 5.3125rem 0;
+      margin-bottom: 5.3125rem;
+
       &::after {
         @extend %circle;
-        top: -25%;
-        left: 3%;
+        top: -5px;
+        left: 2.5rem;
       }
+
       .header_nav-list {
         display: flex;
         .header_nav-list_item {
@@ -42,7 +62,7 @@
           &::before {
             @extend %circle;
             bottom: 2%;
-            right: 3%;
+            right: 2.5rem;
           }
         }
         .header_discr {
@@ -58,14 +78,15 @@
       display: flex;
       align-items: center;
       margin-top: 7.1875rem;
+      padding-bottom: 12.5rem;
 
       .btn_about-me {
         position: relative;
         @extend %btn;
         &::after {
           position: absolute;
-          top: 10px;
-          right: -65px;
+          top: 0.625rem;
+          right: -4.0625rem;
           display: block;
           width: 34px;
           height: 40px;
@@ -76,7 +97,7 @@
         }
         &:hover {
           &::after {
-            transform: translateX(20px);
+            transform: translateX(1.25rem);
           }
         }
       }
