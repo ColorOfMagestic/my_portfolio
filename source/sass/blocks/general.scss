@@ -1,0 +1,30 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  background: $mainColor;
+  font-family: "Lato";
+  font-size: 20px;
+  color: $textColor;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Vogue";
+  font-size: 120px;
+  color: $secondColor;
+}
+
+.text {
+  font-size: 50px;
+}
+
+.filst-letter {
+  color: $greenColor;
+}
