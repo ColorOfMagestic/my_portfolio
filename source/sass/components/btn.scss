@@ -1,0 +1,16 @@
+%btn {
+  width: 282px;
+  height: 70px;
+  background-color: $secondColor;
+  font-weight: 700;
+  color: $mainColor;
+  border-radius: 10px;
+  transition: border linear 0.5s;
+  border: 5px solid $secondColor;
+  &:hover {
+    border-color: $greenColor;
+  }
+  &:active {
+    transform: translate(2px, 2px);
+  }
+}
