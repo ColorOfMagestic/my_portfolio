@@ -6,6 +6,11 @@
 @import "reset+.scss";
 
 // sections
-// @import "blocks/*.scss";
+@import "blocks/general.scss";
+@import "blocks/header.scss";
 
 // components
+@import "components/decoration.scss";
+@import "components/btn.scss";
+@import "components/circle.scss";
+@import "components/info-list.scss";
