@@ -1,0 +1,9 @@
+%circle {
+  position: absolute;
+  display: block;
+  width: 45px;
+  height: 45px;
+  content: "";
+  border-radius: 50%;
+  background-color: $greenColor;
+}
