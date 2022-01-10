@@ -1,0 +1,50 @@
+.page {
+  .skills {
+    padding-top: 4.6875rem;
+
+    .skills-title {
+      &::before {
+        bottom: 35%;
+        left: 36%;
+      }
+    }
+
+    .skills_list {
+      list-style: none;
+
+      .skills_list-item {
+        margin-bottom: 25px;
+      }
+    }
+
+    .skills_wrapper {
+      padding-top: 35px;
+      display: flex;
+      align-items: flex-end;
+
+      .skills-btn_wrapper {
+        position: relative;
+        margin-left: auto;
+        .skills-btn_span {
+          @extend %circle;
+          display: block;
+          bottom: 0;
+        }
+        .span_1 {
+          left: -165px;
+        }
+        .span_2 {
+          left: -85px;
+        }
+        .skills-btn {
+          @extend %btn;
+          background-color: $greenColor;
+          border: 5px solid $greenColor;
+          &:hover {
+            border-color: $secondColor;
+          }
+        }
+      }
+    }
+  }
+}
