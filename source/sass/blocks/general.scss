@@ -6,7 +6,7 @@ body {
   width: 100%;
   background: $mainColor;
   font-family: "Lato";
-  font-size: 20px;
+  font-size: 25px;
   color: $textColor;
 }
 
@@ -19,6 +19,11 @@ body {
   font-family: "Vogue";
   font-size: 120px;
   color: $secondColor;
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
 }
 
 .text {
