@@ -24,6 +24,9 @@ body {
 .section-title {
   position: relative;
   text-align: center;
+  &::before {
+    @extend %circle;
+  }
 }
 
 .text {

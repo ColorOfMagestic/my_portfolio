@@ -8,7 +8,6 @@
       .portfolio-title {
         color: $mainColor;
         &::before {
-          @extend %circle;
           bottom: 35%;
           left: 25%;
         }
