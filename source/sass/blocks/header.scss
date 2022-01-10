@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 
   .header_decoration-top {
     top: 0;
@@ -8,7 +8,7 @@
   }
 
   .header_decoration-bottom-left {
-    bottom: -400px;
+    bottom: -310px;
     left: -100px;
   }
 
@@ -78,7 +78,6 @@
       display: flex;
       align-items: center;
       margin-top: 7.1875rem;
-      padding-bottom: 12.5rem;
 
       .btn_about-me {
         position: relative;
