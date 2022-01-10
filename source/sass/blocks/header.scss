@@ -82,6 +82,9 @@
       .btn_about-me {
         position: relative;
         @extend %btn;
+        background-color: $secondColor;
+        border: 5px solid $secondColor;
+
         &::after {
           position: absolute;
           top: 0.625rem;
@@ -95,6 +98,8 @@
           transition: linear 0.8s;
         }
         &:hover {
+          border-color: $greenColor;
+
           &::after {
             transform: translateX(1.25rem);
           }
