@@ -19,19 +19,70 @@
         alt=""
       />
       <div class="container">
+        <div class="about-me_wrapper">
+          <div class="about-me_content">
+            <button class="about-me_close"></button>
+            <h4 class="title about-me_title">Обо мне</h4>
+            <p class="about-me_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              deserunt odit perferendis. In, corporis itaque, at consequuntur
+              saepe exercitationem minus excepturi, accusantium nisi nihil
+              numquam! Veritatis illo vel aperiam ipsa omnis et, incidunt
+              voluptatibus dicta soluta tempora quis eos esse repudiandae,
+              dolorum asperiores accusamus, distinctio beatae. Vel, eum labore
+              quidem optio, possimus minima officia magni veniam minus quis
+              rerum quasi?
+            </p>
+          </div>
+          <div class="connect_content">
+            <h4 class="title connect_title">Обратная связь</h4>
+            <form class="connect_form" action="">
+              <label class="connect_form_label">
+                <input
+                  class="connect_form_input"
+                  type="text"
+                  placeholder="Ваше имя:"
+                />
+              </label>
+              <label class="connect_form_label">
+                <input
+                  class="connect_form_input"
+                  type="email"
+                  placeholder="Ваш Email:"
+                />
+              </label>
+              <label class="connect_form_label">
+                <input
+                  class="connect_form_input"
+                  type="tel"
+                  placeholder="Ваш Телефон:"
+                />
+              </label>
+              <textarea
+                class="connect_form_textarea"
+                placeholder="Сообщение:"
+              ></textarea>
+              <input
+                class="connect_form_btn"
+                role="button"
+                type="submit"
+                value="Ok!"
+              />
+            </form>
+          </div>
+        </div>
         <nav class="header_nav">
           <ul class="header_nav-list">
             <li class="header_nav-list_item">
-              <a class="nav-list_item_link" href="">портфолио</a>
+              <a class="nav-list_item_link" href="#port">портфолио</a>
             </li>
             <li class="header_nav-list_item">
-              <a class="nav-list_item_link" href="">навыки</a>
+              <a class="nav-list_item_link" href="#skill">навыки</a>
             </li>
             <li class="header_nav-list_item">
-              <a class="nav-list_item_link" href="">условия сотрудничества</a>
-            </li>
-            <li class="header_nav-list_item">
-              <a class="nav-list_item_link" href="">контакты</a>
+              <a class="nav-list_item_link" href="#cond"
+                >условия сотрудничества</a
+              >
             </li>
           </ul>
         </nav>
@@ -138,7 +189,7 @@
     </header>
 
     <main class="page">
-      <section class="portfolio">
+      <section class="portfolio" id="port">
         <div class="container">
           <h2 class="title section-title portfolio-title">Портфолио</h2>
           <div class="swiper swiper-portfolio">
@@ -196,7 +247,7 @@
           alt=""
         />
       </section>
-      <section class="skills">
+      <section class="skills" id="skill">
         <div class="container">
           <h2 class="title section-title skills-title">Skills</h2>
           <ul class="skills_list">
@@ -216,7 +267,7 @@
           </div>
         </div>
       </section>
-      <section class="conditions">
+      <section class="conditions" id="cond">
         <h2 class="title section-title conditions-title">Условия работы</h2>
         <div class="conditions-wrapper">
           <div class="container">
@@ -340,6 +391,48 @@
         </div>
       </div>
     </footer>
+
+    <section class="modal">
+      <div class="modal_overlay">
+        <div class="modal_wrapper">
+          <button class="modal_close"></button>
+
+          <form class="connect_form" action="">
+            <label class="connect_form_label">
+              <input
+                class="connect_form_input"
+                type="text"
+                placeholder="Ваше имя:"
+              />
+            </label>
+            <label class="connect_form_label">
+              <input
+                class="connect_form_input"
+                type="email"
+                placeholder="Ваш Email:"
+              />
+            </label>
+            <label class="connect_form_label">
+              <input
+                class="connect_form_input"
+                type="tel"
+                placeholder="Ваш Телефон:"
+              />
+            </label>
+            <textarea
+              class="connect_form_textarea"
+              placeholder="Сообщение:"
+            ></textarea>
+            <input
+              class="connect_form_btn"
+              role="button"
+              type="submit"
+              value="Ok!"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script type="module" src="js/main.min.js"></script>
   </body>
